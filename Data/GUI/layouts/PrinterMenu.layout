@@ -1,0 +1,699 @@
+FrameWidgetClass rootFrame {
+ position 0.00194 -0.0016
+ size 1 1
+ halign center_ref
+ valign center_ref
+ hexactpos 0
+ vexactpos 0
+ hexactsize 0
+ vexactsize 0
+ {
+  PanelWidgetClass pnl_frame {
+   clipchildren 1
+   ignorepointer 1
+   color 0.1176 0.1176 0.1176 1
+   size 0.5 0.7
+   halign center_ref
+   valign center_ref
+   hexactpos 0
+   vexactpos 0
+   hexactsize 0
+   vexactsize 0
+   draggable 0
+   style rover_sim_colorable
+   {
+    PanelWidgetClass pnl_bg {
+     clipchildren 1
+     ignorepointer 1
+     position 0 0
+     size 1 1
+     halign center_ref
+     valign center_ref
+     hexactpos 0
+     vexactpos 0
+     hexactsize 0
+     vexactsize 0
+     style blank
+     "no focus" 0
+     {
+      TextWidgetClass Title {
+       ignorepointer 1
+       position 0.01052 0.01247
+       size 0.3928 0.04
+       hexactpos 0
+       vexactpos 0
+       hexactsize 0
+       vexactsize 0
+       style Normal
+       text "#str_printermenu_title"
+       font "gui/fonts/metron"
+       "exact text" 0
+       "size to text h" 1
+       "size to text v" 1
+       "text halign" center
+       "text valign" center
+      }
+      ScrollWidgetClass Scroller {
+       ignorepointer 0
+       position 0 0.05
+       size 0.99 0.8
+       halign center_ref
+       hexactpos 0
+       vexactpos 0
+       hexactsize 0
+       vexactsize 0
+       "Scrollbar V" 1
+       {
+        GridSpacerWidgetClass Grid {
+         ignorepointer 1
+         size 1 1
+         halign center_ref
+         hexactpos 0
+         vexactpos 0
+         hexactsize 0
+         vexactsize 0
+         Padding 10
+         Margin 1
+         "Size To Content H" 1
+         "Size To Content V" 1
+         Columns 6
+         Rows 2
+        }
+        PanelWidgetClass PrinterListing0 {
+         visible 0
+         disabled 0
+         ignorepointer 1
+         color 0.0784 0.0784 0.0784 1
+         position 0.011 -0.084
+         size 0.48 0.8
+         valign center_ref
+         hexactpos 0
+         vexactpos 0
+         hexactsize 0
+         vexactsize 0
+         style rover_sim_colorable
+         {
+          ItemPreviewWidgetClass ItemPreview0 {
+           ignorepointer 1
+           position 0 -0.156
+           size 0.9 0.45
+           halign center_ref
+           valign center_ref
+           hexactpos 0
+           vexactpos 0
+           hexactsize 0
+           vexactsize 0
+          }
+          TextWidgetClass ItemName0 {
+           ignorepointer 1
+           position 0 0.019
+           size 0.9 0.045
+           halign center_ref
+           hexactpos 0
+           vexactpos 0
+           hexactsize 0
+           vexactsize 0
+           text "AK-47"
+           font "gui/fonts/metron"
+           "text halign" center
+           "text valign" center
+          }
+          TextWidgetClass FilamentLevel0 {
+           ignorepointer 1
+           position 0 0.128
+           size 0.9 0.045
+           halign center_ref
+           valign center_ref
+           hexactpos 0
+           vexactpos 0
+           hexactsize 0
+           vexactsize 0
+           style Normal
+           text "Filament Tier: Blue"
+           font "gui/fonts/metron"
+           "text halign" center
+           "text valign" center
+          }
+          TextWidgetClass FilamentAmount0 {
+           ignorepointer 1
+           position 0 0.228
+           size 0.9 0.045
+           halign center_ref
+           valign center_ref
+           hexactpos 0
+           vexactpos 0
+           hexactsize 0
+           vexactsize 0
+           text "Filament Amount: 250g"
+           font "gui/fonts/metron"
+           "text halign" center
+           "text valign" center
+          }
+          TextWidgetClass TimeRequired0 {
+           ignorepointer 1
+           position 0 0.327
+           size 0.9 0.045
+           halign center_ref
+           valign center_ref
+           hexactpos 0
+           vexactpos 0
+           hexactsize 0
+           vexactsize 0
+           text "10 min 57 sec"
+           font "gui/fonts/metron"
+           "text halign" center
+           "text valign" center
+          }
+          ButtonWidgetClass BtnSelect0 {
+           position 0 0.01949
+           size 0.8 0.08
+           halign center_ref
+           valign bottom_ref
+           hexactpos 0
+           vexactpos 0
+           hexactsize 0
+           vexactsize 0
+           style Editor
+           text "#str_printermenu_select"
+           font "gui/fonts/metron"
+          }
+         }
+        }
+        PanelWidgetClass PrinterListing1 {
+         visible 0
+         disabled 0
+         ignorepointer 1
+         color 0.0784 0.0784 0.0784 1
+         position 0.50015 -0.08441
+         size 0.48 0.8
+         valign center_ref
+         hexactpos 0
+         vexactpos 0
+         hexactsize 0
+         vexactsize 0
+         style rover_sim_colorable
+         {
+          ItemPreviewWidgetClass ItemPreview1 {
+           ignorepointer 1
+           position 0 -0.156
+           size 0.9 0.45
+           halign center_ref
+           valign center_ref
+           hexactpos 0
+           vexactpos 0
+           hexactsize 0
+           vexactsize 0
+          }
+          TextWidgetClass ItemName1 {
+           ignorepointer 1
+           position 0 0.019
+           size 0.9 0.08
+           halign center_ref
+           hexactpos 0
+           vexactpos 0
+           hexactsize 0
+           vexactsize 0
+           text "AK-47"
+           font "gui/fonts/metron"
+           "text halign" center
+           "text valign" center
+          }
+          TextWidgetClass FilamentLevel1 {
+           ignorepointer 1
+           position 0 0.128
+           size 0.9 0.08
+           halign center_ref
+           valign center_ref
+           hexactpos 0
+           vexactpos 0
+           hexactsize 0
+           vexactsize 0
+           style Normal
+           text "Filament Tier: Blue"
+           font "gui/fonts/metron"
+           "text halign" center
+           "text valign" center
+          }
+          TextWidgetClass FilamentAmount1 {
+           ignorepointer 1
+           position 0 0.228
+           size 0.9 0.08
+           halign center_ref
+           valign center_ref
+           hexactpos 0
+           vexactpos 0
+           hexactsize 0
+           vexactsize 0
+           text "Filament Amount: 250g"
+           font "gui/fonts/metron"
+           "text halign" center
+           "text valign" center
+          }
+          TextWidgetClass TimeRequired1 {
+           ignorepointer 1
+           position 0 0.327
+           size 0.9 0.08
+           halign center_ref
+           valign center_ref
+           hexactpos 0
+           vexactpos 0
+           hexactsize 0
+           vexactsize 0
+           text "10 min 57 sec"
+           font "gui/fonts/metron"
+           "text halign" center
+           "text valign" center
+          }
+          ButtonWidgetClass BtnSelect1 {
+           position 0 0.01949
+           size 0.8 0.08
+           halign center_ref
+           valign bottom_ref
+           hexactpos 0
+           vexactpos 0
+           hexactsize 0
+           vexactsize 0
+           style Editor
+           text "#str_printermenu_select"
+           font "gui/fonts/metron"
+          }
+         }
+        }
+        PanelWidgetClass PrinterListing2 {
+         visible 0
+         disabled 0
+         ignorepointer 1
+         color 0.0784 0.0784 0.0784 1
+         position 0.01067 0.73159
+         size 0.48 0.8
+         valign center_ref
+         hexactpos 0
+         vexactpos 0
+         hexactsize 0
+         vexactsize 0
+         style rover_sim_colorable
+         {
+          ItemPreviewWidgetClass ItemPreview2 {
+           ignorepointer 1
+           position 0 -0.156
+           size 0.9 0.45
+           halign center_ref
+           valign center_ref
+           hexactpos 0
+           vexactpos 0
+           hexactsize 0
+           vexactsize 0
+          }
+          TextWidgetClass ItemName2 {
+           ignorepointer 1
+           position 0 0.019
+           size 0.9 0.08
+           halign center_ref
+           hexactpos 0
+           vexactpos 0
+           hexactsize 0
+           vexactsize 0
+           text "AK-47"
+           font "gui/fonts/metron"
+           "text halign" center
+           "text valign" center
+          }
+          TextWidgetClass FilamentLevel2 {
+           ignorepointer 1
+           position 0 0.128
+           size 0.9 0.08
+           halign center_ref
+           valign center_ref
+           hexactpos 0
+           vexactpos 0
+           hexactsize 0
+           vexactsize 0
+           style Normal
+           text "Filament Tier: Blue"
+           font "gui/fonts/metron"
+           "text halign" center
+           "text valign" center
+          }
+          TextWidgetClass FilamentAmount2 {
+           ignorepointer 1
+           position 0 0.228
+           size 0.9 0.08
+           halign center_ref
+           valign center_ref
+           hexactpos 0
+           vexactpos 0
+           hexactsize 0
+           vexactsize 0
+           text "Filament Amount: 250g"
+           font "gui/fonts/metron"
+           "text halign" center
+           "text valign" center
+          }
+          TextWidgetClass TimeRequired2 {
+           ignorepointer 1
+           position 0 0.327
+           size 0.9 0.08
+           halign center_ref
+           valign center_ref
+           hexactpos 0
+           vexactpos 0
+           hexactsize 0
+           vexactsize 0
+           text "10 min 57 sec"
+           font "gui/fonts/metron"
+           "text halign" center
+           "text valign" center
+          }
+          ButtonWidgetClass BtnSelect2 {
+           position 0 0.01949
+           size 0.8 0.08
+           halign center_ref
+           valign bottom_ref
+           hexactpos 0
+           vexactpos 0
+           hexactsize 0
+           vexactsize 0
+           style Editor
+           text "#str_printermenu_select"
+           font "gui/fonts/metron"
+          }
+         }
+        }
+        PanelWidgetClass PrinterListing3 {
+         visible 0
+         disabled 0
+         ignorepointer 1
+         color 0.0784 0.0784 0.0784 1
+         position 0.50015 0.73159
+         size 0.48 0.8
+         valign center_ref
+         hexactpos 0
+         vexactpos 0
+         hexactsize 0
+         vexactsize 0
+         style rover_sim_colorable
+         {
+          ItemPreviewWidgetClass ItemPreview3 {
+           ignorepointer 1
+           position 0 -0.156
+           size 0.9 0.45
+           halign center_ref
+           valign center_ref
+           hexactpos 0
+           vexactpos 0
+           hexactsize 0
+           vexactsize 0
+          }
+          TextWidgetClass ItemName3 {
+           ignorepointer 1
+           position 0 0.019
+           size 0.9 0.08
+           halign center_ref
+           hexactpos 0
+           vexactpos 0
+           hexactsize 0
+           vexactsize 0
+           text "AK-47"
+           font "gui/fonts/metron"
+           "text halign" center
+           "text valign" center
+          }
+          TextWidgetClass FilamentLevel3 {
+           ignorepointer 1
+           position 0 0.128
+           size 0.9 0.08
+           halign center_ref
+           valign center_ref
+           hexactpos 0
+           vexactpos 0
+           hexactsize 0
+           vexactsize 0
+           style Normal
+           text "Filament Tier: Blue"
+           font "gui/fonts/metron"
+           "text halign" center
+           "text valign" center
+          }
+          TextWidgetClass FilamentAmount3 {
+           ignorepointer 1
+           position 0 0.228
+           size 0.9 0.08
+           halign center_ref
+           valign center_ref
+           hexactpos 0
+           vexactpos 0
+           hexactsize 0
+           vexactsize 0
+           text "Filament Amount: 250g"
+           font "gui/fonts/metron"
+           "text halign" center
+           "text valign" center
+          }
+          TextWidgetClass TimeRequired3 {
+           ignorepointer 1
+           position 0 0.327
+           size 0.9 0.08
+           halign center_ref
+           valign center_ref
+           hexactpos 0
+           vexactpos 0
+           hexactsize 0
+           vexactsize 0
+           text "10 min 57 sec"
+           font "gui/fonts/metron"
+           "text halign" center
+           "text valign" center
+          }
+          ButtonWidgetClass BtnSelect3 {
+           position 0 0.01949
+           size 0.8 0.08
+           halign center_ref
+           valign bottom_ref
+           hexactpos 0
+           vexactpos 0
+           hexactsize 0
+           vexactsize 0
+           style Editor
+           text "#str_printermenu_select"
+           font "gui/fonts/metron"
+          }
+         }
+        }
+        RichTextWidgetClass NoUSBInstalled {
+         ignorepointer 1
+         keepsafezone 0
+         size 1 0.5
+         halign center_ref
+         valign center_ref
+         hexactpos 0
+         vexactpos 0
+         hexactsize 0
+         vexactsize 0
+         scaled 1
+         style DayZNormal
+         text "#str_printermenu_no_usb"
+         font "gui/fonts/metron28"
+         "exact text" 1
+         "size to text h" 0
+         "size to text v" 0
+         "text halign" center
+         "text valign" center
+         wrap 1
+        }
+       }
+      }
+      ButtonWidgetClass BtnStop {
+       position 0.27 0.4525
+       size 0.21 0.055
+       halign right_ref
+       valign center_ref
+       hexactpos 0
+       vexactpos 0
+       hexactsize 0
+       vexactsize 0
+       style Editor
+       text "#str_printermenu_stop"
+       font "gui/fonts/metron"
+      }
+      ButtonWidgetClass BtnClearQueue {
+       position 0.05 0.4525
+       size 0.21 0.055
+       halign right_ref
+       valign center_ref
+       hexactpos 0
+       vexactpos 0
+       hexactsize 0
+       vexactsize 0
+       style Editor
+       text "#str_printermenu_clear_queue"
+       font "gui/fonts/metron"
+      }
+      ButtonWidgetClass BtnStart {
+       position 0.05 0.4525
+       size 0.21 0.055
+       valign center_ref
+       hexactpos 0
+       vexactpos 0
+       hexactsize 0
+       vexactsize 0
+       style Editor
+       text "#str_printermenu_start"
+       font "gui/fonts/metron"
+      }
+      ButtonWidgetClass BtnResumeQueue {
+       position 0.27 0.4525
+       size 0.21 0.055
+       valign center_ref
+       hexactpos 0
+       vexactpos 0
+       hexactsize 0
+       vexactsize 0
+       style Editor
+       text "#str_printermenu_resume"
+       font "gui/fonts/metron"
+      }
+      ButtonWidgetClass BtnClose {
+       position 0.00833 0.01058
+       size 0.0309 0.04
+       halign right_ref
+       hexactpos 0
+       vexactpos 0
+       hexactsize 0
+       vexactsize 0
+       style Editor
+       text "X"
+       font "gui/fonts/metron"
+      }
+      ButtonWidgetClass BtnImport {
+       visible 0
+       position 0.04525 0.01247
+       size 0.3421 0.04
+       halign right_ref
+       hexactpos 0
+       vexactpos 0
+       hexactsize 0
+       vexactsize 0
+       style Editor
+       text "Import Blueprints"
+       font "gui/fonts/metron"
+      }
+      TextWidgetClass SelectedPrint {
+       disabled 0
+       ignorepointer 1
+       position 0.05 0.3875
+       size 0.43 0.05
+       valign center_ref
+       hexactpos 0
+       vexactpos 0
+       hexactsize 0
+       vexactsize 0
+       font "gui/fonts/metron"
+       "text halign" center
+       "text valign" center
+      }
+      ProgressBarWidgetClass PrintingProgress {
+       visible 0
+       ignorepointer 1
+       color 0 1 0.2431 1
+       position 0.08 0.3875
+       size 0.4 0.05
+       halign right_ref
+       valign center_ref
+       hexactpos 0
+       vexactpos 0
+       hexactsize 0
+       vexactsize 0
+       style Default
+       current 0
+      }
+      PanelWidgetClass SeperationBar {
+       ignorepointer 1
+       color 0.0784 0.0784 0.0784 1
+       position -0.00278 0.35651
+       size 1 0.003
+       halign center_ref
+       valign center_ref
+       hexactpos 0
+       vexactpos 0
+       hexactsize 0
+       vexactsize 0
+       style DayZDefaultPanel
+      }
+      TextWidgetClass PrintingTimeLeft {
+       disabled 0
+       ignorepointer 1
+       position 0.05 0.3875
+       size 0.43 0.05
+       halign right_ref
+       valign center_ref
+       hexactpos 0
+       vexactpos 0
+       hexactsize 0
+       vexactsize 0
+       font "gui/fonts/metron"
+       "text halign" center
+       "text valign" center
+      }
+     }
+    }
+   }
+  }
+  PanelWidgetClass print_queue_frame {
+   disabled 0
+   ignorepointer 1
+   color 0.1176 0.1176 0.1176 1
+   position -0.375 0
+   size 0.2 0.82
+   halign center_ref
+   valign center_ref
+   hexactpos 0
+   vexactpos 0
+   hexactsize 0
+   vexactsize 0
+   draggable 0
+   style rover_sim_colorable
+   {
+    TextListboxWidgetClass PrintQueue {
+     color 0 0 0 0.5882
+     position 0.02 0.1
+     size 0.98 0.85
+     hexactpos 0
+     vexactpos 0
+     hexactsize 0
+     vexactsize 0
+     colums "1"
+     lines 20
+     font "gui/fonts/metron"
+    }
+    TextWidgetClass PrintQueueTitle {
+     ignorepointer 1
+     position 0 0.03
+     size 0.8 0.05
+     halign center_ref
+     hexactpos 0
+     vexactpos 0
+     hexactsize 0
+     vexactsize 0
+     text "Print Queue"
+     font "gui/fonts/metron"
+     "exact text" 0
+     "size to text h" 0
+     "text halign" center
+     "text valign" center
+    }
+    ButtonWidgetClass BtnRemoveFromQueue {
+     size 1 0.05
+     halign center_ref
+     valign bottom_ref
+     hexactpos 0
+     vexactpos 0
+     hexactsize 0
+     vexactsize 0
+     style Editor
+     text "#str_printermenu_remove_from_queue"
+     font "gui/fonts/metron"
+    }
+   }
+  }
+ }
+}

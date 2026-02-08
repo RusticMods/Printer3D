@@ -1,0 +1,32 @@
+ImageSetClass {
+ Name "printer_icons"
+ RefSize 512 512
+ Textures {
+  ImageSetTextureClass {
+   mpix 1
+   path "{0CD7622CE2435739}Printer3D/Data/GUI/imagesets/printer_icons.edds"
+  }
+ }
+ Images {
+  ImageSetDefClass usb_icon {
+   Name "usb_icon"
+   Pos 19 12
+   Size 232 232
+   Flags 0
+  }
+  ImageSetDefClass filament_icon {
+   Name "filament_icon"
+   Pos 263 5
+   Size 241 241
+   Flags 0
+  }
+  ImageSetDefClass folder_icon {
+   Name "folder_icon"
+   Pos 141 258
+   Size 232 232
+   Flags 0
+  }
+ }
+ Groups {
+ }
+}

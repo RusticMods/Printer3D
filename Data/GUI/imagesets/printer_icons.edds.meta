@@ -1,0 +1,16 @@
+MetaFileClass {
+ Name "{0CD7622CE2435739}Printer3D/Data/GUI/imagesets/printer_icons.edds"
+ Author "desktop-7l4g037"
+ ChangeDate -2145619813
+ Configurations {
+  PNGResourceClass PC {
+   SourceFile "printer_icons.png"
+  }
+  PNGResourceClass XBOX_ONE : PC {
+  }
+  PNGResourceClass PS4 : PC {
+  }
+  PNGResourceClass LINUX : PC {
+  }
+ }
+}
