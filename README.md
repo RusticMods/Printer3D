@@ -86,10 +86,13 @@ See `Printer3D_Server` for server-side config details.
 
 ## Installation
 
-Install `Printer3D` on:
-
-- the **server**
-- all **clients**
+- Click `Code`, then `Download ZIP`
+- Extract the folder within the ZIP file into your P drive
+- Remove the "-main" from the folder name (Eg: Printer3D instead of Printer3D-main)
+- Using AddonBuilder (or other packer tool), pack the folder into a PBO
+- Sign PBO using DS Utils
+- Upload to server pack/workshop
+- Done
 
 Also install:
 
