@@ -116,3 +116,23 @@ That means you can extend the system by defining additional folder classes for n
 ## License
 
 This project is licensed under the **GNU General Public License v3.0**. See `LICENSE-GPL-3.0.txt` for the full license text.
+
+## Steam Workshop Redistribution
+
+This project is licensed under the GNU General Public License v3.0.
+
+You may upload, repost, fork, modify, or redistribute this project on Steam Workshop only if you follow the GPLv3 license terms.
+
+Any Steam Workshop upload or derivative version must:
+
+- Credit the original author: Rustic
+- Link to the original repository: https://github.com/RusticMods/Printer3D/
+- Include a clear GPLv3 license notice
+- Provide access to the complete corresponding source code for the uploaded version
+- Clearly state whether changes were made
+- Preserve copyright and license notices
+- Not imply endorsement by the original author unless permission was explicitly granted
+
+Suggested attribution:
+
+“Based on Printer3D by Rustic, licensed under GPLv3. Original source: https://github.com/RusticMods/Printer3D/. Modified version source: [Your Modified Source URL].”
